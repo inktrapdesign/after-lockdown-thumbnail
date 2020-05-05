@@ -1,0 +1,19 @@
+{
+  "name": "thumbnail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "puppeteer": "^1.18.1",
+    "recursive-readdir": "^2.2.2",
+    "restify": "^8.3.3"
+  }
+}
