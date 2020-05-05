@@ -10,7 +10,7 @@ var recursive = require("recursive-readdir");
 // Create server
 let server = restify.createServer();
 server.use(restify.plugins.queryParser());
-server.listen(process.env.port || process.env.PORT || 3000, function() {
+server.listen(process.env.port || process.env.PORT || 3001, function() {
   console.dir(`${server.name} listening to ${server.url}`);
 });
 
