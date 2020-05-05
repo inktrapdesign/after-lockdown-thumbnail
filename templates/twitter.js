@@ -121,7 +121,7 @@ module.exports = {
             <body>
             <div class="twitter">
                 <div class="card card--${params.color}">
-                    <div class="card__message">${params.message}</div>
+                    <div class="card__message">After lockdown I want to ${params.message}</div>
                     <div class="card__location">- ${params.location}</div>
                 </div>
             </div>
