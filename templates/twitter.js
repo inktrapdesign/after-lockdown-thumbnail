@@ -100,6 +100,7 @@ module.exports = {
                         font-size: 20px;
                         line-height: 1.5;
                         color: #2F2F33;
+                        word-wrap: break-word;
                     }
 
                     .card__location {
@@ -114,6 +115,7 @@ module.exports = {
                         letter-spacing: 0.05em;
                         text-transform: uppercase;
                         color: #9B9BA5;
+                        word-wrap: break-word;
                     }
 
                 </style>

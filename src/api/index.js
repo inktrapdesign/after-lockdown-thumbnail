@@ -178,7 +178,7 @@ const createFile = async (b64, path, cb) => {
 server.get('/', getIndex)
 
 // Serve image asset
-server.get('/assets/:template', getTemplate);
+server.get('/asset/:template', getTemplate);
 
 // Preview template
 server.get('/preview/:template', getPreview);
